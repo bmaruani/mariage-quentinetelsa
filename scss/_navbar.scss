@@ -8,6 +8,7 @@
     font-weight: 700;
     text-transform: uppercase;
     color: $primary;
+    //font-family : 'Freestyle';
     @include sans-serif-font;
     &:focus,
     &:hover {
@@ -37,12 +38,13 @@
   }
   @media (min-width: 992px) {
     border-color: transparent;
-    background-color: transparent;
+    border-bottom: 1px solid fade-out($gray-900, .9);
+    background-color: $white;
     .navbar-brand {
-      color: fade-out($white, .3);
+      color: $primary;
       &:focus,
       &:hover {
-        color: $white;
+        color: darken($primary, .1);
       }
     }
     .navbar-nav > li.nav-item > a.nav-link {
@@ -50,27 +52,9 @@
     }
     .navbar-nav > li.nav-item > a.nav-link,
     .navbar-nav > li.nav-item > a.nav-link:focus {
-      color: fade-out($white, .3);
+      color: $gray-900;
       &:hover {
-        color: $white;
-      }
-    }
-    &.navbar-shrink {
-      border-bottom: 1px solid fade-out($gray-900, .9);
-      background-color: $white;
-      .navbar-brand {
         color: $primary;
-        &:focus,
-        &:hover {
-          color: darken($primary, .1);
-        }
-      }
-      .navbar-nav > li.nav-item > a.nav-link,
-      .navbar-nav > li.nav-item > a.nav-link:focus {
-        color: $gray-900;
-        &:hover {
-          color: $primary;
-        }
       }
     }
   }
