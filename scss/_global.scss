@@ -6,7 +6,7 @@ html {
 }
 
 body {
-  @include serif-font;
+  @include sans-serif-font;
 }
 
 @font-face {
@@ -124,5 +124,24 @@ body {
 
   &:hover {
     color: darken(#212529, .1);
+  }
+}
+
+#informations {
+  background-image: url('../img/motif.png'), url('../img/motif-right.png');
+  background-position: left center, right center;
+  background-repeat: repeat-y, repeat-y;
+  background-size: 150px, 150px;
+  h1 {
+    font-size: 3rem;
+  }
+  @media (max-width: 992px) {
+    background-image: none, none;
+  }
+
+  @media (min-width: 1200px) {
+    h1 {
+      font-size: 4rem;
+    }
   }
 }

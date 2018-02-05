@@ -9,7 +9,7 @@ html {
   height: 100%; }
 
 body {
-  font-family: 'Merriweather', 'Helvetica Neue', Arial, sans-serif; }
+  font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif; }
 
 @font-face {
   font-family: 'Freestyle';
@@ -105,6 +105,20 @@ body {
   .mail:hover {
     color: #212529; }
 
+#informations {
+  background-image: url("../img/motif.png"), url("../img/motif-right.png");
+  background-position: left center, right center;
+  background-repeat: repeat-y, repeat-y;
+  background-size: 150px, 150px; }
+  #informations h1 {
+    font-size: 3rem; }
+  @media (max-width: 992px) {
+    #informations {
+      background-image: none, none; } }
+  @media (min-width: 1200px) {
+    #informations h1 {
+      font-size: 4rem; } }
+
 #mainNav {
   border-bottom: 1px solid rgba(33, 37, 41, 0.1);
   background-color: #fff;
@@ -156,7 +170,10 @@ body {
 header.masthead {
   padding-top: 10rem;
   padding-bottom: calc(10rem - 56px);
-  background-position: center center;
+  background-image: url("../img/motif.png");
+  background-position: left center;
+  background-repeat: no-repeat;
+  background-size: 150px;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
