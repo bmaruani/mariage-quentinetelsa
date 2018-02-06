@@ -6,10 +6,12 @@
   @include transition-all;
   .navbar-brand {
     font-weight: 700;
-    text-transform: uppercase;
     color: $primary;
-    //font-family : 'Freestyle';
-    @include sans-serif-font;
+    @include freestyle-font;
+    padding-top: 0;
+    padding-bottom: 0;
+    font-size: 2rem;
+
     &:focus,
     &:hover {
       color: darken($primary, .1);

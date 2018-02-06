@@ -13,8 +13,8 @@ body {
 
 @font-face {
   font-family: 'Freestyle';
-  src: url("fonts/FREESCRPT.TTF");
-  src: url("fonts/FREESCRPT.TTF") format("truetype"), url("fonts/FREESCRPT.otf") format("opentype");
+  src: url("../fonts/FREESCPT.TTF");
+  src: url("../fonts/FREESCPT.TTF") format("truetype"), url("../fonts/FREESCPT.otf") format("opentype");
   font-weight: normal;
   font-style: normal; }
 
@@ -111,13 +111,14 @@ body {
   background-repeat: repeat-y, repeat-y;
   background-size: 150px, 150px; }
   #informations h1 {
-    font-size: 3rem; }
+    font-size: 4rem;
+    font-family: Freestyle, 'Open Sans', 'Helvetica Neue', Arial, sans-serif; }
   @media (max-width: 992px) {
     #informations {
       background-image: none, none; } }
   @media (min-width: 1200px) {
     #informations h1 {
-      font-size: 4rem; } }
+      font-size: 6rem; } }
 
 #mainNav {
   border-bottom: 1px solid rgba(33, 37, 41, 0.1);
@@ -128,9 +129,11 @@ body {
   transition: all 0.2s; }
   #mainNav .navbar-brand {
     font-weight: 700;
-    text-transform: uppercase;
     color: #d04527;
-    font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif; }
+    font-family: Freestyle, 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
+    padding-top: 0;
+    padding-bottom: 0;
+    font-size: 2rem; }
     #mainNav .navbar-brand:focus, #mainNav .navbar-brand:hover {
       color: #d04527; }
   #mainNav .navbar-nav > li.nav-item > a.nav-link,

@@ -11,8 +11,8 @@ body {
 
 @font-face {
   font-family: 'Freestyle';
-  src: url('fonts/FREESCRPT.TTF');
-  src: url('fonts/FREESCRPT.TTF') format('truetype'), url('fonts/FREESCRPT.otf') format('opentype');
+  src: url('../fonts/FREESCPT.TTF');
+  src: url('../fonts/FREESCPT.TTF') format('truetype'), url('../fonts/FREESCPT.otf') format('opentype');
   font-weight: normal;
   font-style: normal;
 }
@@ -133,7 +133,8 @@ body {
   background-repeat: repeat-y, repeat-y;
   background-size: 150px, 150px;
   h1 {
-    font-size: 3rem;
+    font-size: 4rem;
+    @include freestyle-font;
   }
   @media (max-width: 992px) {
     background-image: none, none;
@@ -141,7 +142,7 @@ body {
 
   @media (min-width: 1200px) {
     h1 {
-      font-size: 4rem;
+      font-size: 6rem;
     }
   }
 }

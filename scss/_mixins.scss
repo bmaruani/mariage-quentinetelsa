@@ -16,3 +16,7 @@
 @mixin sans-serif-font() {
   font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
 }
+
+@mixin freestyle-font() {
+  font-family: Freestyle, 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
+}
