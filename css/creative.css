@@ -112,7 +112,8 @@ body {
   background-size: 150px, 150px; }
   #informations h1 {
     font-size: 4rem;
-    font-family: Freestyle, 'Open Sans', 'Helvetica Neue', Arial, sans-serif; }
+    font-family: Gabriola, 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
+    font-weight: 300; }
   @media (max-width: 992px) {
     #informations {
       background-image: none, none; } }
@@ -128,7 +129,7 @@ body {
   -moz-transition: all 0.2s;
   transition: all 0.2s; }
   #mainNav .navbar-brand {
-    font-weight: 700;
+    font-weight: normal;
     color: #d04527;
     font-family: Freestyle, 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
     padding-top: 0;

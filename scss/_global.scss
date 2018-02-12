@@ -134,7 +134,8 @@ body {
   background-size: 150px, 150px;
   h1 {
     font-size: 4rem;
-    @include freestyle-font;
+    @include gabriola-font;
+    font-weight: 300;
   }
   @media (max-width: 992px) {
     background-image: none, none;

@@ -5,7 +5,7 @@
   @include sans-serif-font;
   @include transition-all;
   .navbar-brand {
-    font-weight: 700;
+    font-weight: normal;
     color: $primary;
     @include freestyle-font;
     padding-top: 0;
