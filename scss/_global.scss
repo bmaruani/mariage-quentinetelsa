@@ -119,31 +119,24 @@ body {
 }
 
 .mail {
-  color: #212529;
+  color: #fff;
   text-decoration: underline;
 
   &:hover {
-    color: darken(#212529, .1);
+    color: darken(#fff, 30);
   }
 }
 
 #informations {
-  background-image: url('../img/motif.png'), url('../img/motif-right.png');
-  background-position: left center, right center;
-  background-repeat: repeat-y, repeat-y;
-  background-size: 150px, 150px;
   h1 {
-    font-size: 4rem;
-    @include gabriola-font;
+    font-size: 3rem;
+    font-family: 'Kurale', serif;
     font-weight: 300;
-  }
-  @media (max-width: 992px) {
-    background-image: none, none;
   }
 
   @media (min-width: 1200px) {
     h1 {
-      font-size: 6rem;
+      font-size: 4rem;
     }
   }
 }

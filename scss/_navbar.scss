@@ -7,10 +7,10 @@
   .navbar-brand {
     font-weight: normal;
     color: $primary;
-    @include freestyle-font;
+    font-family: 'Kurale', serif;
     padding-top: 0;
     padding-bottom: 0;
-    font-size: 2rem;
+    font-size: 1.6rem;
 
     &:focus,
     &:hover {

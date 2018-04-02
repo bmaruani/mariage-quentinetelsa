@@ -100,26 +100,19 @@ body {
   padding-top: 57px; }
 
 .mail {
-  color: #212529;
+  color: #fff;
   text-decoration: underline; }
   .mail:hover {
-    color: #212529; }
+    color: #b3b3b3; }
 
-#informations {
-  background-image: url("../img/motif.png"), url("../img/motif-right.png");
-  background-position: left center, right center;
-  background-repeat: repeat-y, repeat-y;
-  background-size: 150px, 150px; }
+#informations h1 {
+  font-size: 3rem;
+  font-family: 'Kurale', serif;
+  font-weight: 300; }
+
+@media (min-width: 1200px) {
   #informations h1 {
-    font-size: 4rem;
-    font-family: Gabriola, 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
-    font-weight: 300; }
-  @media (max-width: 992px) {
-    #informations {
-      background-image: none, none; } }
-  @media (min-width: 1200px) {
-    #informations h1 {
-      font-size: 6rem; } }
+    font-size: 4rem; } }
 
 #mainNav {
   border-bottom: 1px solid rgba(33, 37, 41, 0.1);
@@ -131,10 +124,10 @@ body {
   #mainNav .navbar-brand {
     font-weight: normal;
     color: #d04527;
-    font-family: Freestyle, 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
+    font-family: 'Kurale', serif;
     padding-top: 0;
     padding-bottom: 0;
-    font-size: 2rem; }
+    font-size: 1.6rem; }
     #mainNav .navbar-brand:focus, #mainNav .navbar-brand:hover {
       color: #d04527; }
   #mainNav .navbar-nav > li.nav-item > a.nav-link,
